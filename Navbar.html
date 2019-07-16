@@ -1,18 +1,24 @@
-<div class="navBar sticky-top navbar navbar-expand flex-column flex-md-row bd-navbar">
-  <div class="d-sm-none">
-    <button class="btn btn-outline-secondary" type="button">
+<div class="navBar sticky-top navbar navbar-expand bd-navbar">
+  <div class="d-sm-none dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
       <i class="fa fa-list"></i>
     </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item" href="#">Home</a>
+      <a class="dropdown-item" href="#">Sign Up</a>
+      <a class="dropdown-item" href="#">Login</a>
+      <div class="dropdown-divider"></div>
+    </div>
   </div>
   <div class="logo navbar-brand d-none d-sm-block">
     <a href="#">
       <img src="./resources/logo_white_cropped.png" alt="UTOPIA">
     </a>
   </div>
-  <ul class="navbar-nav flex-row ml-md-auto d-none d-sm-flex">
+  <ul class="navbar-nav flex-row ml-auto">
     <li class="nav-item">
       <div class="input-group" id="booking-search-bar">
-        <input type="text" class="form-control" placeholder="Booking Id">
+        <input type="text" class="form-control" placeholder="Booking Id" size=18>
         <div class="input-group-append">
           <button class="btn btn-outline-secondary" type="button">
             <i class="fa fa-search"></i>
@@ -23,12 +29,12 @@
         Already Have a Flight?
       </a>
     </li>
-    <li class="nav-item">
+    <li class="nav-item d-none d-sm-flex">
       <a href="#">
           Sign Up
       </a>
     </li>
-    <li class="nav-item">
+    <li class="nav-item d-none d-sm-flex">
       <a href="#">
         Login
       </a>
