@@ -3,6 +3,13 @@ a:link {
   color: rgb(250, 157, 19);
 }
 
+a:hover, 
+.blue-btn.btn.btn-sm:hover,
+.btn.btn-primary.blue-btn:hover {
+  color: white !important;
+  cursor: pointer;
+}
+
 .app-container {
   padding-left: 10px;
   padding-right: 10px;
@@ -31,7 +38,7 @@ a:link {
 
 .blue-btn.btn.btn-sm:active,
 .btn.btn-primary.blue-btn:active {
-  background-color: #040348a9;
+  background-color: #04034875;
 }
 
 /* Still Don't work */
